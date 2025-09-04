@@ -1,0 +1,9 @@
+{
+  "name": "Site Responsivo FlexBox",
+  "short_name": "FlexBox",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#222222",
+  "icons": []
+}

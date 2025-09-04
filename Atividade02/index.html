@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Responsivo - GRID CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Minha Empresa</h1>
+    <nav>
+      <button class="menu-toggle">☰</button>
+      <ul class="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-container">
+    <section class="item destaque">Destaque</section>
+    <section class="item">Produto 1</section>
+    <section class="item">Produto 2</section>
+    <section class="item">Produto 3</section>
+    <section class="item">Produto 4</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Minha Empresa - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".menu");
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
